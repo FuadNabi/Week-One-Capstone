@@ -24,7 +24,11 @@ If you want to try this application locally, follow the steps below:
 
 2. Run `cd Week-One-Capstone`.
 
-3. Open file with the liveserver.
+3. install a live server extension
+
+4. Right click on the index.html file
+
+5. Select open file with live server
 
 
 
