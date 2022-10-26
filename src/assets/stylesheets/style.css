@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display&family=Poppins:wght@300&display=swap');
+@import url('about.css');
 
 body {
   margin: 0;
@@ -7,7 +8,7 @@ body {
 }
 
 .header-cont {
-  background-image: url("images/Header-background.jpg");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -31,7 +32,7 @@ body {
 }
 
 .header-title {
-  background-image: url("images/pexels-photo-1293120.jpeg");
+  background-image: url("/src/assets/images/pexels-photo-1293120.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +45,7 @@ body {
 }
 
 .about-header-title {
-  background-image: url("images/pexels-photo-1293120.jpeg");
+  background-image: url("/src/assets/images/pexels-photo-1293120.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,7 +82,7 @@ body {
 /* Program Section */
 
 .program-cont {
-  background-image: url("images/dark-grey-background-12.jpg");
+  background-image: url("/src/assets/images/dark-grey-background-12.jpg");
   background-size: cover;
   padding: 15px;
 }
@@ -200,13 +201,15 @@ body {
 .speaker-img {
   width: 130px;
   height: 130px;
+  object-fit: cover;
+  object-position: 50% 10%;
 }
 
 .speaker-img-background {
   padding: 18px;
   width: 80px;
   height: 80px;
-  background: url(images/image-background.jpg);
+  background: url('/src/assets/images/image-background.jpg');
   background-size: 100px;
   margin: 0 50px 100px 0;
   background-repeat: no-repeat;
@@ -292,119 +295,6 @@ body {
   margin: 0;
 }
 
-/* About HTML */
-
-.about-cont {
-  background-image: url("images/Header-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 0.5px #383b3f38 solid;
-}
-
-.about-description {
-  background-color: white;
-  border: 2px #f0efef solid;
-  padding: 16px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.about-contact {
-  text-align: center;
-  color: grey;
-  line-height: 30px;
-  padding-bottom: 30px;
-}
-
-.about-contact a {
-  color: #383b3f;
-  font-weight: 900;
-}
-
-.conference-logo {
-  padding: 60px 40px;
-  border-bottom: 1px #383b3f38 solid;
-}
-
-.about-title {
-  color: black;
-  text-align: center;
-  padding: 20px 0 40px 0;
-  font-weight: 500;
-  margin: 0;
-  position: relative;
-}
-
-.about-title::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 80px;
-  bottom: 0;
-  width: 100%;
-  height: 6px;
-  background-color: #e65642;
-  scale: 0.09;
-}
-
-.logo-create {
-  text-align: center;
-  margin-bottom: 50px;
-  color: #383b3f;
-}
-
-.conference-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px #383b3f1f solid;
-  padding: 32px;
-}
-
-.conference-img img {
-  width: 70%;
-}
-
-.past-conferences {
-  padding: 50px;
-}
-
-.past-images {
-  position: relative;
-  margin-top: 20px;
-}
-
-.past-img {
-  width: 100%;
-}
-
-.img-color-red {
-  background-color: #e746319c;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
-.img-text {
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.img-year {
-  font-weight: 900;
-  font-size: 26px;
-  margin-bottom: 10px;
-}
-
-.img-text-p {
-  margin: 0;
-}
-
 .p-top-zero {
   padding-top: 0;
 }
@@ -467,6 +357,10 @@ body {
 
 .program-link {
   display: none;
+}
+
+.active {
+  color: #e65642 !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -659,7 +553,7 @@ body {
   .speakers-cont {
     display: flex;
     flex-direction: column;
-    max-height: 1000px;
+    max-height: 980px;
     width: 70%;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -701,82 +595,7 @@ body {
     scale: 1;
   }
 
-  /* ABOUT HTML FOR DESKTOP */
-
-  .about-header-title {
-    font-size: 60px;
-    line-height: 65px;
-  }
-
-  .about-header-text {
-    margin: 40px 1em 40px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .header-text-position {
-    width: 50%;
-  }
-
-  .about-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .conference-logo {
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .conference-img {
-    width: 50%;
-  }
-
-  .about-title {
-    font-size: 32px;
-  }
-
-  .about-title::after {
-    height: 16px;
-    scale: 0.04;
-  }
-  
-  .past-conferences {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 70px;
-  }
-
-  .past-images {
-    margin: 0;
-    flex: 1;
-  }
-
-  .past-images-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 50%;
-  }
-
-  .partners-cont {
-    display: none;
-  }
-
-  .footer-cont {
-    background-color: #383b3f;
-  }
-
-  .footer-p {
-    color: white;
+  .active {
+    color: #e65642;
   }
 }
