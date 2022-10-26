@@ -8,7 +8,7 @@ This is a project confirming that I have properly understood everything learned 
 
 - HTML
 - CSS
-
+- JavaScript
 
 ## Live Demo
 
