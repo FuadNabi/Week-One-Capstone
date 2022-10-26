@@ -2,7 +2,7 @@
 
 # Capstone
 ![screenshot](Capture.JPG)
-
+This is a project confirming that I have properly understood everything learned so far from the first module.
 
 ## Built With
 
@@ -22,9 +22,7 @@ If you want to try this application locally, follow the steps below:
 
 2. Run `cd Week-One-Capstone`.
 
-3. Run `npm install`.
-
-4. Run `npm start`.
+3. Open file with the liveserver.
 
 
 

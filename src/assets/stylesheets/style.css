@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display&family=Poppins:wght@300&display=swap');
 @import url('about.css');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-  scroll-behavior: smooth;
 }
 
 .header-cont {
@@ -191,6 +194,22 @@ body {
 .speakers-cont {
   display: flex;
   flex-direction: column;
+  height: 500px;
+  overflow: hidden;
+}
+
+.speakers-btn {
+  border: 1px #383b3f73 solid;
+  background-color: white;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.speakers-btn-icon {
+  color: #e65642;
+  margin-left: 10px;
 }
 
 .speaker {
@@ -199,8 +218,8 @@ body {
 }
 
 .speaker-img {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   object-position: 50% 10%;
 }
@@ -363,6 +382,16 @@ body {
   color: #e65642 !important;
 }
 
+.height {
+  height: auto;
+  overflow: auto;
+  transition: 0.5s;
+}
+
+.display-none {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .header-position {
     display: flex;
@@ -408,12 +437,17 @@ body {
     align-items: center;
   }
 
-  .sub-header-flex li {
-    margin-right: 20px;
+  .sub-header-icon a {
+    color: white;
   }
 
-  .sub-header-icon {
+  .sub-header-flex > ul > li > a {
     color: white;
+    text-decoration: none;
+  }
+
+  .sub-header-flex li {
+    margin-right: 20px;
   }
 
   .nav-menu-icon {
@@ -559,6 +593,15 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 24px;
+    height: auto;
+    overflow: auto;
+  }
+
+  .speaker-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    object-position: 50% 10%;
   }
 
   .speakers-width {
@@ -597,5 +640,9 @@ body {
 
   .active {
     color: #e65642;
+  }
+
+  .speakers-btn {
+    display: none;
   }
 }

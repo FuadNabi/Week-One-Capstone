@@ -6,6 +6,7 @@ const closeBtn = document.querySelector('#close-btn');
 const mobileMenu = document.querySelector('.mobile-menu');
 const navLinks = Array.from(document.querySelectorAll('#menu-links'));
 const speakersSection = document.querySelector('.speakers-cont');
+const moreBtn = document.querySelector('.speakers-btn');
 
 function toggleMenu() {
   mobileMenu.classList.toggle('open');
@@ -33,3 +34,10 @@ speakersData.forEach((data) => {
 });
 
 speakersSection.innerHTML = speakersHTML;
+
+function seeMore() {
+  speakersSection.classList.add('height');
+  moreBtn.classList.add('display-none');
+}
+
+moreBtn.addEventListener('click', seeMore);

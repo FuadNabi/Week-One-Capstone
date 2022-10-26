@@ -14,11 +14,11 @@
       <div class="sub-header">
         <div class="sub-header-flex">
           <ul>
-            <li class="sub-header-icon"><i class="fa-brands fa-facebook-f"></i></li>
-            <li class="sub-header-icon"><i class="fa-brands fa-twitter"></i></li>
-            <li>English</li>
-            <li>My Page</li>
-            <li>Logout</li>
+            <li class="sub-header-icon"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="sub-header-icon"><a href=""><i class="fa-brands fa-twitter"></a></i></li>
+            <li><a href="">English</a></li>
+            <li><a href="">My Page</a></li>
+            <li><a href="">Logout</a></li>
           </ul>
         </div>
       </div>
@@ -30,10 +30,10 @@
               <ul>
                 <li><a class="nav-link active" href="index.html">Home</a></li>
                 <li><a class="nav-link" href="about.html">About</a></li>
-                <li><a class="nav-link" href="">Program</a></li>
-                <li><a class="nav-link" href="">Join</a></li>
-                <li><a class="nav-link" href="">Sponsor</a></li>
-                <li><a class="nav-link" href="">News</a></li>
+                <li><a class="nav-link" href="#program-cont">Program</a></li>
+                <li><a class="nav-link" href="#join">Join</a></li>
+                <li><a class="nav-link" href="#speakers">Sponsor</a></li>
+                <li><a class="nav-link" href="#partners">News</a></li>
                 <li><a href="index.html"><button class="nav-btn">Minute Clinic</button></a></li>
               </ul>
             </div>
@@ -70,7 +70,7 @@
       </div>
     </header>
     <main>
-      <section class="program-cont">
+      <section class="program-cont" id="program-cont">
         <h3 class="program-title">Program Topics</h3>
         <div class="program-position">
           <section class="program-contents">
@@ -109,19 +109,22 @@
             <div class="program-content-description">The importance of traditional medicine and its role in shaping a healthy lifestyle.</div>
           </section>
         </div>
-        <div class="program-btn-cont">
-          <button class="program-btn">Join TIHL 2023</button>
+        <div class="join-cont" id="join">
+          <div class="program-btn-cont">
+            <button class="program-btn">Join TIHL 2023</button>
+          </div>
+          <a href="" class="program-link">SEE THE WHOLE PROGRAM</a>
         </div>
-        <a href="" class="program-link">SEE THE WHOLE PROGRAM</a>
       </section>
-      <section class="speakers-section">
+      <section class="speakers-section" id="speakers">
         <div class="speakers-width">
           <h3 class="speakers-title">Famous Speakers</h3>
           <div class="speakers-cont">
           </div>
+          <button class="speakers-btn">MORE<i class="fa-solid fa-chevron-down speakers-btn-icon"></i></button>
         </div>
       </section>
-      <section class="partners-cont">
+      <section class="partners-cont" id="partners">
         <h3 class="partners-title">Partners</h3>
         <div class="partners-images">
           <img src="src/assets/images/airbnb.svg" alt="airbnb logo" class="partners-img">
