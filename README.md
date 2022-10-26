@@ -1,8 +1,10 @@
 # ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Capstone
-![screenshot](Capture.JPG)
 This is a project confirming that I have properly understood everything learned so far from the first module.
+
+
+![screenshot](Capture.JPG)
 
 ## Built With
 
