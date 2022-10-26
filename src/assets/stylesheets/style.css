@@ -32,7 +32,7 @@ body {
 }
 
 .header-title {
-  background-image: url("/src/assets/images/pexels-photo-1293120.jpeg");
+  background-image: url("../images/pexels-photo-1293120.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
 }
 
 .about-header-title {
-  background-image: url("/src/assets/images/pexels-photo-1293120.jpeg");
+  background-image: url("../images/pexels-photo-1293120.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body {
 /* Program Section */
 
 .program-cont {
-  background-image: url("/src/assets/images/dark-grey-background-12.jpg");
+  background-image: url("../images/dark-grey-background-12.jpg");
   background-size: cover;
   padding: 15px;
 }
@@ -209,7 +209,7 @@ body {
   padding: 18px;
   width: 80px;
   height: 80px;
-  background: url('/src/assets/images/image-background.jpg');
+  background: url('../images/image-background.jpg');
   background-size: 100px;
   margin: 0 50px 100px 0;
   background-repeat: no-repeat;
