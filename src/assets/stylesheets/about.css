@@ -117,6 +117,10 @@
   display: none;
 }
 
+.footer-cont-black {
+  background-color: #383b3f;
+}
+
 @media screen and (min-width: 768px) {
   .about-header-title {
     font-size: 60px;
@@ -185,10 +189,6 @@
 
   .partners-cont {
     display: none;
-  }
-
-  .footer-cont-black {
-    background-color: #383b3f;
   }
 
   .footer-p {
