@@ -1,7 +1,7 @@
 # ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Capstone
-![screenshot](Screenshot.png)
+![screenshot](Capture.jpg)
 
 
 ## Built With
