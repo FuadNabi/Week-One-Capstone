@@ -1,8 +1,7 @@
 # ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Capstone
-This is a project confirming that I have properly understood everything learned so far from the first module.
-
+> The Website is for a Minute Clinic. One of the many main activities of this clinic is the importance of a healthy lifestyle and how it will change your life. The coming CONFERENCE "THE IMPORTANCE OF A HEALTHY LIFESTYLE"(TIHL) is hosting on 01/01/2023.
 
 ![screenshot](Capture.JPG)
 
