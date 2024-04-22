@@ -35,7 +35,7 @@ If you want to try this application locally, follow the steps below:
 
 👤 **Fuad Nabiyev**
 
-- GitHub: [@github](https://github.com/FuadNabi)
+- GitHub: [@FuadNabi](https://github.com/FuadNabi)
 
 
 ## 🤝 Contributing
